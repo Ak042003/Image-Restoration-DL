@@ -25,7 +25,7 @@ The model architecture includes:
 The model processes images through multiple stages of convolution, residual connections, and deconvolution to restore image quality.
 
 ## Training
-The model is trained on the LOL dataset, which contains 500 low-light and normal-light image pairs. The training process includes:
+The model is trained on the dataset, which contains 500 image pairs. The training process includes:
 - Data preprocessing and augmentation
 - Custom loss functions (Perceptual and Charbonnier losses)
 - 50 epochs of training
